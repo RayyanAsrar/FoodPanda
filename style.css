@@ -1,0 +1,201 @@
+  * {
+    margin: 0;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #282b2c;
+  }
+
+  .navbar {
+    background-color: #282b2c;
+    padding: 6px 20px;
+    text-align: center;
+  }
+
+  .logo {
+    position: relative;
+    display: inline-block;
+    right: 800px;
+  }
+  .logo a img {
+    width: 120px; /* Example width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Nav items */
+  .nav-items {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+  }
+  .nav-items a button {
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .login {
+    background-color: inherit;
+    color: white;
+    border-color: grey;
+    border-width: 0.5px;
+  }
+  .sign-up {
+    background-color: #b5165a;
+    color: white;
+    border-color: grey;
+    border-width: 0.5px;
+  }
+  .uni {
+    padding-right: 5px;
+  }
+  .nav-items li {
+    display: inline-block;
+    margin: 0 15px; /* Space between links */
+  }
+  .nav-items li a img {
+    position: relative;
+    top: 5px;
+  }
+
+  .nav-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .nav-items a:hover {
+    text-decoration: underline;
+  }
+  .section1 {
+    background-color: #1d1f20;
+    width: 100%;
+    height: 600px;
+    position: relative;
+  }
+  .sec1img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .sectiontxt {
+    /* background-color: red; */
+    position: relative;
+    top: 200px;
+    left: 70px;
+    width: auto;
+    height: auto;
+  }
+  .sectiontxt p {
+    color: white;
+    font-weight: bolder;
+    font-size: 45px;
+  }
+  .txt-bg {
+    background-color: #181a1b;
+    width: 700px;
+    height: 75px;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  #text-area {
+    margin: 15px;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: inherit;
+    border-color: white;
+    padding: 5px;
+    color: white;
+    content: url();
+  }
+  .txt-bg button {
+    position: relative;
+    bottom: 6px;
+    right: 3px;
+    top: 0px;
+    width: 100px;
+    height: 35px;
+    margin-bottom: 15px;
+    background-color: #b5165a;
+    border-radius: 10px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  i {
+    position: relative;
+    right: 50px;
+  }
+  .section2 {
+    position: absolute;
+    background-color: #282b2c;
+    width: 100%;
+    height: 120px;
+  }
+  .section2 p {
+    position: relative;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    top: 50px;
+    left: 50px;
+  }
+  .section3 img {
+    width: 100%;
+    height: 650px;
+  }
+  .section4 {
+    position: relative;
+    background-color: #1d1f20;
+    width: 100%;
+    height: 400px;
+  }
+  .section4-box {
+    position: relative;
+    background-color: #282b2ced;
+    width: 700px;
+    height: auto;
+    bottom: 100px;
+    opacity: 1;
+    padding: 20px;
+    right: -40px;
+    border-radius: 10px;
+  }
+
+  .section4-box h3 {
+    color: white;
+  }
+  .section4-box p {
+    color: white;
+  }
+  .section4-box button {
+    color: white;
+    background-color: #b5165a;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+  }
+  .footer1{
+    background-color:pink;
+    width: 100%;
+    height: 600px;
+    color: white;
+  }
+  .footer1 ul {
+    list-style-type: none;  /* Removes default bullets */
+    padding: 0;
+}
+.footer1 ul a {
+  text-decoration: none;  /* Remove the underline from links */
+}
+.footer1 ul li {
+  display: inline;  
+  margin-right: 10px;}
